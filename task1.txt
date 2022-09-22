@@ -1,0 +1,13 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP/2 achieves faster webpage loading without performance optimizations that require extensive human efforts in terms of development.
+It significantly reduces the complexities that had crept into HTTP/1.1 and gives us a robust protocol which, though not without its flaws, will perhaps stand the test of time.
+Before making this leap forward, let’s trace our steps back to when the internet was in its infancy to understand how the different versions evolved into the current form.
+HTTP1 usest works on the textual format.
+HTTP2 works on the binary protocol.
+In HTTP1 there is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+In HTTP2 allows multiplexing so one TCP connection is required for multiple requests.
+HTTP1 uses requests resource Inlining for use getting multiple pages.
+HTTP2 uses PUSH frame by server that collects all multiple pages.
+HTTP1 compresses data by itself.
+HTTP2 uses HPACK for data compression.
